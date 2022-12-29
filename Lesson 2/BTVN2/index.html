@@ -2,59 +2,118 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Youtube Video</title>
-    <style>
-        h1 {
-            font: 300;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-        td {
-            font: 100;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            text-align: center;
-        }   
-    </style>
+    <title>THÊM SINH VIÊN </title>
 </head>
 <body>
 
 </body>
 </html>
-<h1>Youtube Video List</h1>
-<table>
-    <tr>
-        <td>
-            <iframe src="https://www.youtube.com/embed/x0fSBAgBrOQ"></iframe>
-            Video 1
-        </td>
-        <td>
-            <iframe src="https://www.youtube.com/embed/30sMCciFIAM"></iframe>
-            Video 2
-        </td>
-        <td>
-            <iframe src="https://www.youtube.com/embed/9QeNLypIiZs"></iframe>
-            Video 3
-        </td>
-        <td>
-            <iframe src="https://www.youtube.com/embed/08lWi4T2Bfg"></iframe>
-            Video 4
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <iframe src="https://www.youtube.com/embed/WB6FQdp41hs"></iframe>
-            Video 5
-        </td>
-        <td>
-            <iframe src="https://www.youtube.com/embed/J1m4vLDUhEI"></iframe>
-            Video 6
-        </td>
-        <td>
-            <iframe src="https://www.youtube.com/embed/Nno-r1Cz_-I"></iframe>
-            Video 7
-        </td>
-        <td>
-            <iframe src="https://www.youtube.com/embed/AJ8j6_L94Bc"></iframe>
-            Video 8
-        </td>
-    </tr>
+<h1>THÊM SINH VIÊN</h1>
+<form>
+    <table>
+        <tr>
+            <td>Họ tên</td>
+            <td><input type="text" name="name" value="" ></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh</td>
+            <td><input type="date" id="bod" name="bod" ></td>   
+        </tr>
+        <tr>
+            <td>Giới tính</td>
+            <td>
+                <label> 
+                    <input type="radio" name="gender" value="">
+                    Nam
+                </label>
+                <label> 
+                    <input type="radio" name="gender" value="">
+                    Nữ
+                </label>
+            </td>   
+        </tr>
+        <tr>
+            <td>Quê quán</td>
+            <td><label for="Quê quán"></label>
+                <select name="An Giang" id="1">
+                    <option value="An Giang">An Giang</option>
+                    <option value="Hà Nội">Hà Nội</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ</td>
+            <td><input type="text" name="Adress"></td>
+        </tr>
+        <tr>
+            <td>Sở thích</td>
+            <td>
+                <label> 
+                    <input type="checkbox" name="hobby" value="">
+                    Thể thao
+                </label>
+                <label> 
+                    <input type="checkbox" name="hobby" value="">
+                    Du lịch
+                </label>
+                <label> 
+                    <input type="checkbox" name="hobby" value="">
+                    Phim ảnh
+                </label>
+                <label> 
+                    <input type="checkbox" name="hobby" value="">
+                    Ẩm thực
+                </label>
+            </td>   
+        </tr>
+        <tr>
+            <td>Màu yêu thích</td>
+            <td><input type="color" name="color" value=""></td>   
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="email" value=""></td>
+        </tr>
+        <tr>
+            <td>Trang Facebook</td>
+            <td><a></a></td>
+        </tr>
+        <tr>
+            <td>Lớp</td>
+            <td><label for="Class"></label>
+                <select name="Lớp CNTT khóa 8" id="Class">
+                    <option value="8">Lớp CNTT khóa 8</option>
+                    <option value="9">Lớp CNTT khóa 9</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Tên đăng nhập</td>
+            <td><input type="text" name="id" value=""></td>
+        </tr>
+        <tr>
+            <td>Mật khẩu</td>
+            <td><input type="password" name="password" value=""></td>
+        </tr>
+        <tr>
+            <td>Tên đăng nhập</td>
+            <td><input type="text" name="id" value=""></td>
+        </tr>
+        <tr>
+            <td>Ảnh thẻ</td>
+            <td> <input type="file" id="file"> </label></td>
+        </tr>
+        <tr>
+            <td>Mô tả </td>
+            <td><textarea id="Mô tả" name="Mô tả" rows="2" cols="50">Nhập nội dung vào đây!</textarea></td>
+        </tr>
+        <tr>
+            <td> 
+                <button type="submit"> Gửi</button>
+            </td>
+            <td>
+                <button type="reset">Nhập lại</button>
+            </td>
+        </tr>
     </table>
+    </form>
