@@ -1,0 +1,26 @@
+Các loại thẻ trong html
+Thẻ header
+Thẻ p: Đoạn văn bản
+thẻ a: chèn link
+thẻ img: chèn ảnh => src : link file ảnh, alt: tên thay thế trong trường hợp không thể hiển thị
+Danh sách ol: có thứ tự, ul : không có thứ tự
+Thẻ tạo bảng 
+Table: khai báo 1 bảng, 
+tr: khai báo 1 hàng
+th: khai báo 1 ô tiêu đề
+td: khai báo dữ liệu 
+Thẻ tạo form 
+Thẻ form:
+action: điều hướng đên trang web khác, 
+method: get+ post 
+get: dữ liệu gửi đi nhưng hiển thị trên thanh địa chỉ trình duyệt
+post: dữ liệu gửi đi nhưng k hiển thị trên thanh địa chỉ trình duyệt
+Entity: Các từ được quy định sẵn để hiern thị ký tự đặc biệt
+
+"https://www.youtube.com/embed/9QeNLypIiZs"
+"https://www.youtube.com/embed/08lWi4T2Bfg"
+"https://www.youtube.com/embed/WB6FQdp41hs"
+"https://www.youtube.com/embed/J1m4vLDUhEI"
+"https://www.youtube.com/embed/Nno-r1Cz_-I"
+"https://www.youtube.com/embed/AJ8j6_L94Bc"
+"https://www.youtube.com/embed/MJZICS7nQk8"
